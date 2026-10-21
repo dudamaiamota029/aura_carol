@@ -1,0 +1,10 @@
+{
+  "name": "Aura — Plataforma Educacional Adaptativa e Inclusiva de Administração",
+  "description": "Plataforma educacional adaptativa voltada para a inclusão de estudantes com TEA, TDAH e necessidades de aprendizagem, com acesso facial inclusivo, personalização de leitura (letra cursiva, bastão e sem serifa) e agente pedagógico com IA.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

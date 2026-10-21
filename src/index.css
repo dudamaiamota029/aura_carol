@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-cursiva {
+    font-family: 'Caveat', cursive, sans-serif !important;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+  }
+
+  .font-bastao {
+    font-family: 'Comic Neue', 'Lexend', cursive, sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .font-legivel {
+    font-family: 'Lexend', 'Plus Jakarta Sans', sans-serif !important;
+    letter-spacing: 0.01em;
+  }
+
+  .font-padrao {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+  }
+}
+
+/* Reduced animations for students with sensory sensitivities */
+.sensory-reduced-motion * {
+  animation: none !important;
+  transition-duration: 0.01ms !important;
+}
+
+/* High contrast accessibility mode */
+.high-contrast-mode {
+  --tw-bg-opacity: 1;
+  background-color: #0b192c !important;
+  color: #ffffff !important;
+}
+
+.high-contrast-mode .bg-white {
+  background-color: #172554 !important;
+  color: #ffffff !important;
+  border-color: #93c5fd !important;
+}
+
+.high-contrast-mode .text-\[\#526176\],
+.high-contrast-mode .text-slate-500,
+.high-contrast-mode .text-slate-600 {
+  color: #e2e8f0 !important;
+}
+
+.high-contrast-mode .bg-\[\#F4F8FF\] {
+  background-color: #0b192c !important;
+}
+
+/* Focus mode highlighter for the active main instruction */
+.instruction-focus-glow {
+  box-shadow: 0 0 0 4px #2563EB, 0 8px 24px rgba(37, 99, 235, 0.18);
+  border-color: #2563EB !important;
+}
